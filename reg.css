@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito Sans";
+    background-color: #3277d1;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+    p{
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    }
+    th{
+    padding: 10px !important;
+    }
+    .table{
+    margin-bottom: 0px;
+    }
+    .dropdown-toggle{
+    background-color: rgb(73, 9, 9);
+    }
+    .table>:not(caption)>*>*{
+    border-color: #a663f3;
+    vertical-align: middle;
+    white-space: nowrap;
+    }
+    .table>:not(:first-child){
+    border-top:#413003;
+    }
+    .table>thead{
+    background-color:#8963f1;
+    color: #fff;
+    }
+    .row{
+    align-items: center;
+    }
+    .form-control {
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    }
+    .form-control:focus{
+    box-shadow: none;
+    border-color:#63501d;
+    }
+    .form-check-input:checked{
+    background-color: #463710;
+    border-color: #3d2f09;
+    }
+    .form-check-input:focus{
+    box-shadow: none;
+    }
+    .form-control:hover{
+    border-color: #47370b;
+    }
+    .bg-custom {
+    border: 1px solid #4d3d11;
+    }
+    .btn-custom {
+    border-color: #4b3909;
+    color: #46360a;
+    }
+    .btn-custom:hover {
+    background-color: #362b0d;
+    color: rgb(85, 11, 11);
+    box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    }
+    .row.m-0{
+    border-bottom: 1px solid #f4be2b;
+    margin-bottom: 15px !important;
+    background: #f4be2b;
+    font-weight: 600;
+    color: rgb(5, 184, 14);
+    }
+    .row.mb-2{
+    margin: 0;
+    }
+    .col-lg-4 p{
+    font-size: 12px;
+    }
+    }
+    @media(max-width: 992px) {
+    form{
+    width: 80%;
+    }
+    }
+    @media(max-width: 575px) {
+    form{
+    width: 100%;
+    }
+    }
